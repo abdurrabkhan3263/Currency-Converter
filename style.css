@@ -8,6 +8,7 @@ font-family: 'poppins' , sans-serif;
 }
 
 body{
+    overflow: hidden;
     background: linear-gradient(to left , rgb(196, 153, 243) , rgb(115, 96, 223));
 
 }
@@ -163,7 +164,7 @@ tbody tr td{
     }
 
     nav{
-        height: 8vh;
+        height: 15vh;
         flex-direction: column;
     }
 
@@ -177,10 +178,10 @@ tbody tr td{
     }
 
     nav ul li {
-        margin: 10px 15px;
+        margin: 10px 13px;
     }
     input[type='submit']{
         max-width: none;
-        width: 100vw;
+        width: 100%;
     }
 }
